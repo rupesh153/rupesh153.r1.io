@@ -1,0 +1,52 @@
+
+
+        #equals{
+            background-color: rgb(136, 244, 244);
+        }
+        #AC{
+            background-color: rgb(218, 110, 110);
+        }
+        #mul,#sub,#add,#rcurve,#lcurve,#slash{
+            background-color: rgb(153, 217, 129);
+        }
+ #answer{
+        width:320px;
+        height:80px ;
+        border-radius:13px;
+        padding-left:10px;
+        box-shadow:inset 5px 5px 3px grey,inset -5px -5px 3px white;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: end;
+        font-size: 40px;
+        padding: 15px;
+      }
+
+.calc{ 
+   box-shadow:5px 5px 3px grey, -5px -5px 3px white;
+     background:rgb(200,200,200);
+     padding:10px;
+     border-radius:20px; 
+     display:inline-block ;
+     margin-bottom: 20px;
+     }
+
+input{
+    
+     position: relative;
+     grid-column: span 4;
+      font-size:33px;
+      width:70px;
+      height:60px;
+      margin:6px;
+      border:none;
+      border-radius:10px;
+      box-shadow:5px 5px 3px grey, -5px -5px 3px white;
+      background:rgb(200,200,200);
+      outline:none;
+      text-align: center;
+      }
+
+input:hover{
+    box-shadow:inset 5px 5px 3px grey,inset -5px -5px 3px white;
+} 
